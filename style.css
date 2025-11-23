@@ -91,6 +91,14 @@ padding:60px 0;
     .main-text{
         max-width: 100%;
     }
+    /* telefon için üst üste dizip ortalıyoruz */
+    .container{
+        flex-direction:column;
+        align-items: center;
+    }
+    .main-text{
+        margin-bottom: 50px;
+    }
 }
 .hamburger-menu{
     display:none;
